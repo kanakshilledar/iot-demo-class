@@ -41,7 +41,7 @@ void loop() {
     while(WiFi.status() != WL_CONNECTED){
       WiFi.begin(ssid, pass); // Connect to WPA/WPA2 network. Change this line if using open or WEP network
       Serial.print(".");
-      delay(5000);     
+      delay(200);     
     } 
     Serial.println("\n[+] Connected.");
   }
