@@ -73,5 +73,5 @@ void loop() {
   Serial.print(bmp.readPressure());
   Serial.println(" Pa");
 
-  delay(2000); // Wait 20 seconds to update the channel again
+  delay(2000); // Wait 2 seconds to update the channel again
 }
